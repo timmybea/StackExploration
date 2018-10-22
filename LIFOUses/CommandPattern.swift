@@ -8,30 +8,6 @@
 
 import Foundation
 
-//class BankAccount : CustomStringConvertible {
-//    
-//    private var balance = 0
-//    private let overdraftLimit = -500
-//    
-//    func deposit(_ amt: Int) {
-//        balance += amt
-//    }
-//    
-//    func withdraw(_ amt: Int) -> Bool {
-//        if (balance - amt >= overdraftLimit) {
-//            balance -= amt
-//            return true
-//        }
-//        return false
-//    }
-//    
-//    var description: String {
-//        return "Account with balance: \(balance) and overdraft: \(overdraftLimit)"
-//    }
-//}
-
-
-
 class BankAccount : CustomStringConvertible {
     
     private var commandStack = Stack<BankAccountCommand>()
